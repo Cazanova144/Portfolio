@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+section {
+    background-color: lightgreen;
+    height: 100vh;
+    width: 100vw;
+    border: 2px black dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    height: auto;
+}
