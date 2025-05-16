@@ -14,35 +14,67 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
-        <div class="text-center bg-blue">
-            <h1>About/Profile</h1>
-            <p>Mitt namn är Cazpian och jag är en 23 årig ung och energisk man som är ute efter arbete. Jag drivs av bra resultat och tycker det är viktigt att alltid avsluta vad jag påbörjat.</p>
-            <p>Jag värnar om att få en helhetsbild av mina uppgifter och tydliga riktlinjer för hur jag ska utföra mitt arbete för att jag ska kunna göra ett så bra jobb som möjligt.</p>
-            <p>Som person är jag noggrann och systematiskt, tar mitt jobb på allvar och är inte rädd för att ta i. Jag hoppas jag väcker ert intresse och att vi hörs av i snar framtid.</p>
+    <header class="">
+        <nav class="text-center bg-pink flex space-around p-2">
+            <a href="#about">
+                <div class="test">
+                    <p>About/Profile</p>
+                </div>
+            </a>
+            <a href="#education">
+                <div class="test">
+                    <p>Education</p>
+                </div>
+            </a>
+            <a href="#skills">
+                <div class="test">
+                    <p>Skills</p>
+                </div>
+            </a>
+            <a href="#experience">
+                <div class="test">
+                    <p>Experience</p>
+                </div>
+            </a>
+            <a href="#contact">
+                <div class="test">
+                    <p>Contact</p>
+                </div>
+            </a>
+            <div class="test2">
+                <p>day/night mode</p>
+            </div>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="text-center bg-blue mw-80">
+            <h1 class="py-2">About/Profile</h1>
+            <p class="p-2">Mitt namn är Cazpian och jag är en 23 årig ung och energisk man som är ute efter arbete. Jag drivs av bra resultat och tycker det är viktigt att alltid avsluta vad jag påbörjat.</p>
+            <p class="p-2">Jag värnar om att få en helhetsbild av mina uppgifter och tydliga riktlinjer för hur jag ska utföra mitt arbete för att jag ska kunna göra ett så bra jobb som möjligt.</p>
+            <p class="p-2">Som person är jag noggrann och systematiskt, tar mitt jobb på allvar och är inte rädd för att ta i. Jag hoppas jag väcker ert intresse och att vi hörs av i snar framtid.</p>
         </div>
     </section>
-    <section>
-        <div class="text-center bg-blue">
-            <h1>Education</h1>
-            <p>Webbutveckling började som ett intresse för mig under gymnasiet då jag började lära mig om HTML, CSS, Bootstrap, MySQL och WordPress.</p>
-            <p>Jag hade dessutom en kurs i programmering vilket skapade ett intresse för mig att knäcka kod och lösa problem, vilket jag tror har varit till en stor fördel i min utveckling som webbutvecklare.</p>
+    <section id="education">
+        <div class="text-center bg-blue mw-80">
+            <h1 class="py-2">Education</h1>
+            <p class="p-2">Webbutveckling började som ett intresse för mig under gymnasiet då jag började lära mig om HTML, CSS, Bootstrap, MySQL och WordPress.</p>
+            <p class="p-2">Jag hade dessutom en kurs i programmering vilket skapade ett intresse för mig att knäcka kod och lösa problem, vilket jag tror har varit till en stor fördel i min utveckling som webbutvecklare.</p>
             <div class="flex bg-pink space-around">
-                <div class="bg-yellow text-start mw-40">
-                    <p class="space-between flex fw-500">NTI Gymnasiet, Lund <span class="fw-200">2017 - 2020</span></p>
-                    <p>Teknikprogrammet</p>
-                    <p>Inriktning Programmering. Där jag läste C# och Webbutveckling</p>
+                <div class="bg-grey text-start mw-40">
+                    <p class="p-2 space-between flex fw-500">NTI Gymnasiet, Lund <span class="fw-200">2017 - 2020</span></p>
+                    <p class="pb-2 pl-2">Teknikprogrammet</p>
+                    <p class="pb-2 pl-2">Inriktning Programmering. Där jag läste C# och Webbutveckling</p>
                 </div>
-                <div class="bg-yellow text-start mw-40">
-                    <p class="space-between flex fw-500">Medieinstitutet, Malmö <span class="fw-200">2021 - 2023</span></p>
-                    <p>Utbildning inom Front End Utveckling och olika
+                <div class="bg-grey text-start mw-40">
+                    <p class="p-2 space-between flex fw-500">Medieinstitutet, Malmö <span class="fw-200">2021 - 2023</span></p>
+                    <p class="pb-2 pl-2">Utbildning inom Frontendutveckling och olika
                         ramverk/bibliotek. Som bland annat BootStrap, React,
                         Node JS och Vue. Se kompetenser för fulländad lista</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="skills">
         <div>
             <h1>Skills/Competencies</h1>
             <div class="container">
@@ -72,22 +104,22 @@
             </div>
         </div>
     </section>
-    <section>
-        <div class="text-center bg-blue">
-            <h1>Experience</h1>
-            <p>Detta är min erfarenhet inom programmeringens och webbutvecklingens yrkesliv (hitintills)</p>
+    <section id="experience">
+        <div class="text-center bg-blue mw-80">
+            <h1 class="py-2">Experience</h1>
+            <p class="p-2">Detta är min erfarenhet inom programmeringens och webbutvecklingens yrkesliv (hitintills)</p>
             <div class="flex bg-pink space-around">
-                <div class="bg-yellow text-start minw-90">
-                    <p class="space-between flex fw-500">Frontendutvecklare, praktik <span class="fw-200">September 2022 - Maj 2023</span></p>
-                    <p>Capace Media</p>
+                <div class="bg-grey text-start minw-90">
+                    <p class="p-2 space-between flex fw-500">Frontendutvecklare, praktik <span class="fw-200">September 2022 - Maj 2023</span></p>
+                    <p class="pb-2 pl-2">Capace Media</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="text-center bg-blue">
-            <h1>Contact</h1>
-            <p>Du kan kontakta mig på min e-postadress: cazpians@gmail.com, alternativt kan du använda formuläret nedanför.</p>
+    <section id="contact">
+        <div class="text-center bg-blue mw-80">
+            <h1 class="py-2">Contact</h1>
+            <p class="p-2">Du kan kontakta mig på min e-postadress: cazpians@gmail.com, alternativt kan du använda formuläret nedanför.</p>
             <p>(Lägg in formuläret här senare)</p>
         </div>
     </section>
